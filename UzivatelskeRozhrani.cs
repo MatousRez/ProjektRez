@@ -28,7 +28,7 @@ namespace Evidence_pojištění
         // Metoda pro čtení vstupu od uživatele
         public string ZiskejVstup()
         {
-            return Console.ReadLine();
+            return Console.ReadLine()!;
         }
 
         // Metoda pro výpis zprávy s výzvou k pokračování

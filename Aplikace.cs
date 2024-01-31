@@ -71,7 +71,7 @@
             string jmeno = ZiskejVstupOdUzivatele("Jméno: ");
             string prijmeni = ZiskejVstupOdUzivatele("Příjmení: ");
 
-            PojistenaOsoba nalezenaOsoba = evidencePojisteni.VyhledejOsobu(jmeno, prijmeni);
+            PojistenaOsoba? nalezenaOsoba = evidencePojisteni.VyhledejOsobu(jmeno, prijmeni);
 
             if (nalezenaOsoba != null)
             {

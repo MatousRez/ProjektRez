@@ -63,7 +63,7 @@ namespace Evidence_pojištění
         }
 
         // Metoda pro vyhledání pojištěného podle jména a příjmení
-        public PojistenaOsoba VyhledejOsobu(string jmeno, string prijmeni)
+        public PojistenaOsoba? VyhledejOsobu(string jmeno, string prijmeni)
         {
             return seznamPojistenych.Find(osoba => osoba.Jmeno == jmeno && osoba.Prijmeni == prijmeni);
         }
